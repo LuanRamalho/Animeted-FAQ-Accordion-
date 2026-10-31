@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Animated FAQ Accordion</title>
+        <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <div class="faq">
+      <h2>Tem Dúvidas? <i class="fa-regular fa-circle-question"></i></h2>
+      <div class="item active">
+        <button class="question" aria-expanded="true">
+          <span class="icon"><i class="fa-solid fa-lightbulb"></i></span>
+          <b>Este acordeão é legal?</b>
+          <i class="fa-solid fa-plus plus"></i>
+        </button>
+        <div class="answer">
+          <p>Com certeza! Suave, elegante e interativo.</p>
+        </div>
+      </div>
+      <div class="item">
+        <button class="question" aria-expanded="false">
+          <span class="icon"><i class="fa-solid fa-rocket"></i></span>
+          <b>Isso vai melhorar o meu site?</b>
+          <i class="fa-solid fa-plus plus"></i>
+        </button>
+        <div class="answer">
+          <p>Com certeza! Suas dúvidas frequentes acabaram de receber um upgrade.</p>
+        </div>
+      </div>
+      <div class="item">
+        <button class="question" aria-expanded="false">
+          <span class="icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+          <b>Qual é o ingrediente secreto?</b>
+          <i class="fa-solid fa-plus plus"></i>
+        </button>
+        <div class="answer">
+          <p>Um pouco de mágica CSS e JavaScript.</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
